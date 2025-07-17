@@ -108,4 +108,11 @@ deps = {
         "ignore_in_git": True,
         "condition": system in ['linux', 'darwin', 'windows'],
     },
+    "buildtools/tools_shared": {
+        "type": "solution",
+        "url": "https://github.com/lynx-family/tools-shared.git",
+        "commit": "0ad5be5770bb7d00bcd958236823343941564a71",
+        'deps_file': 'dependencies/DEPS',
+        "ignore_in_git": True,
+    },
 }
